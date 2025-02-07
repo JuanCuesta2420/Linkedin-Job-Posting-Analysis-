@@ -1,6 +1,7 @@
 # LinkedIn Job Market Analysis Project
 
 Steps & Methodologies Used
+       
         - 1. Data Collection
             - Web Scraping: Extracted job postings from LinkedIn using BeautifulSoup/Selenium.
             - Collected key job attributes, including:
@@ -9,13 +10,16 @@ Steps & Methodologies Used
             - Location
             - Salary Range
             - Job Description
+      
        - 2. Data Processing & Cleaning
             - Removed duplicate listings and handled missing values.
             - Standardized job titles and salary information for consistency.
+     
        - 3. Exploratory Data Analysis (EDA)
             - Word Cloud Analysis: Identified common job titles and skills.
             - Industry Distribution: Determined which sectors have the highest job postings.
             - Geographical Breakdown: Mapped job availability across different locations.
+       
        - 4. Models Used
             - ✅ Natural Language Processing (NLP)
               - TF-IDF (Term Frequency-Inverse Document Frequency): Analyzed job descriptions to extract most in-demand skills.
@@ -40,4 +44,4 @@ Results & Insights
   - Most In-Demand Skills: Found which technical and soft skills were most frequently listed.
   - Location-Based Salary Trends: Provided geographical salary insights to help job seekers make informed decisions.
 
-## website link:  https://juancuesta2420.github.io/Linkedin-Job-Posting-Analysis-/
+## Website link:  https://juancuesta2420.github.io/Linkedin-Job-Posting-Analysis-/
